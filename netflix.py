@@ -14,8 +14,7 @@ class Pelicula:
         return '{} ({})'.format(self.titulo, self.lanzamiento)
 
 
-class Catalogo:
-    
+class Catalogo:    
     peliculas = []
     
     # Constructor de clase
